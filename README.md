@@ -24,13 +24,13 @@ VERBOSE_MODE="FALSE"                    (TRUE for verbose mode for debugging iss
 
 # FAQ
 
-## Fix for "ALSA lib pcm.c:8306:(snd_pcm_recover) underrun occured"
+### How do I fix for "ALSA lib pcm.c:8306:(snd_pcm_recover) underrun occured"?
 Edit `.basilisk_ii_prefs` make sure `soundbuflen 1` is set
 
-# Transferring files to your emulated Mac
+### How do I transfer files to the emulated Mac?
 When he Mac boots you will see a drive on the desktop called "Unix" this points to the `BasiliskII` directory on your SD card. You can transfer files here across the network or by placing the SD card in your main computer.
 
-## Potential problems
+#### Potential problems
 - It is not recommened to edit files in this folder directly from the Mac. Copy them to your Macs emulated hard drive first.
 - Mac OS files use resource forks. Most operating systems do not support these and they will be lost when transferring files via non MacOS computers. The best way to work around this is to transfer compressed files e.g. .sit more information here https://www.macintoshrepository.org/articles/152-what-is-a-sit-stuffit-file-and-how-to-use-it-
 
